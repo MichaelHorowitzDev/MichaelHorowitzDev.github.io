@@ -6,127 +6,142 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael Horowitz</title>
 </head>
-<body>
-    <h1>Welcome to my Website</h1>
-    <p>This is a place where you will be able to find information about 
-        the different programming related things I am working on, have worked on, or want to work on.
-    </p>
-    <h1>Current Skills</h1>
-    <ul>
-        <li>
-            Proficient in the Swift Programming Language
-            <p>I have been programming in Swift for over 2 years and I've very 
-                comfortable with the syntax of the language and the "Swifty" way of doing things.
-            </p>
-        </li>
-        <li>
-            Comfortable Programming in Xcode and making general purpose iOS apps.
-            <p>
-                I've been making apps basically since I started learning Swift. 
-                I've always been a technology person and I love the iPhone and Apple products.
-                Apple's suite of tools for building iPhone apps makes me very productive and it's very enjoyable.
-                <br>
-                Here's the <a target="_blank" href="https://apps.apple.com/us/developer/stacey-horowitz/id1460616158">link</a> to my App Store Page.
-            </p>
-        </li>
-    </ul>
-    <h1>Skills Currently Learning/Aquiring</h1>
-    <ul>
-        <li>
-            Know the basics of Python and can make basic scripts with it but haven't really gone any further than that.
-            Python is a great language that I'll use sometimes to write up a quick script to automate some task.
-        </li>
-        <li>
-            Started Learning Haskell at around the end of September 2021. 
-            Currently a beginner in the language but am slowly progressing and understanding the functional programming paradigm.
-        </li>
-        <li>
-            Started learning the basics of C# very recently with an interest in making desktop Windows applications.
-        </li>
-    </ul>
-    <h1>Very Little Experience/Want To Learn</h1>
-    <ul>
-        <li>
-            C - Know the most basic syntax of C but have never made any real program with it.
-        </li>
-        <li>
-            Ruby - Started learning the basics of ruby recently and it seems like a 
-            cool scripting language that would be worth learning.
-        </li>
-    </ul>
-    <h1>Projects Built and Skills Used</h1>
-    <ul>
-        <li>
-            <span><a target="_blank" href="https://apps.apple.com/us/app/random-things-generator/id1460779766">Random Things Generator</a>
-                 - App for generating Random Things like numbers, colors, dice, etc.</span>
-            <ul>
-                <li>Core Data</li>
-                <li>CloudKit</li>
-                <li>SwiftUI</li>
-                <li>Compositional Programming</li>
-            </ul>
-        </li>
-        <br>
-        <li>
-            <span>
-                <a target="_blank" href="https://apps.apple.com/us/app/binary-converter-calculator/id1501111820">Binary Convert Calculator</a>
-                 - App for converting numbers and text between bases
-            </span>
-            <ul>
-                <li>UIKit</li>
-                <li>AutoLayout</li>
-                <li>Code Modularity</li>
-            </ul>
-        </li>
-        <br>
-        <li>
-            <span><a target="_blank" href="https://apps.apple.com/us/app/the-flippening/id1565638848">The Flippening</a>
-                 - Shows charts of Bitcoin and Ethereum and how they interact with each other</span>
-            <ul>
-                <li>Fetching data from an API in a safe and efficient manner</li>
-                <li>Using SwiftUI paths to make line chart that can be scrolled on to show changing prices</li>
-            </ul>
-        </li>
-        <br>
-        <li>
-            <span>
-                <a target="_blank" href="https://apps.apple.com/us/app/debt-in-us/id1489902593">Debt in US</a>
-                 - Shows the current outstanding US debt
-            </span>
-            <ul>
-                <li>Fetching data from US treasury to show current US debt level</li>
-                <li>Saving API data in the form of JSON to local disk to prevent 
-                    unnecessary network calls and to improve speed of app</li>
-            </ul>
-        </li>
-        <br>
-        <li>
-            <a target="_blank" href="https://apps.apple.com/us/app/the-ultimate-periodic-table/id1493321444">The Ultimate Periodic Table</a>,
-            <a target="_blank" href="https://apps.apple.com/us/app/presidents-of-united-states/id1589177122">Presidents of United States</a>
-            <ul>
-                <li>Parsing JSON info efficiently and displaying to the user</li>
-                <li>Using UserDefaults to persist some data</li>
-            </ul>
-        </li>
-        <br>
-        <li>
-            <span>
-                <a target="_blank" href="https://github.com/MichaelHorowitzDev/SwiftChess">SwiftChess</a>
-                 - Chess Library written in Swift
-            </span>
-            <ul>
-                <li>Usage of Protocols to define functionality</li>
-                <li>Usage of Structs and Composition over Classes and inheritance</li>
-                <li>First time creating a Swift library and writing basic documentation for it</li>
-            </ul>
-        </li>
-    </ul>
-    <h1>Other General Interests</h1>
-    <ul>
-        <li>General interest in computers and technology</li>
-        <li>Running and working out</li>
-        <li>Interest in language learning (current learning Japanese)</li>
-        <li>Interest in Economics and Finance</li>
-    </ul>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+    div.main {
+        max-width: 600px;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: rgb(70, 70, 70);
+        font-family: 'Lato';
+    }
+    
+</style>
+<body style="background-color: rgb(245, 245, 245);">
+    <div class="main">
+        <h1>Welcome to my Website</h1>
+        <p>This is a place where you will be able to find information about
+            the different programming related things I am working on, have worked on, or want to work on.
+        </p>
+        <h1>Current Skills</h1>
+        <ul>
+            <li>
+                Proficient in the Swift Programming Language
+                <p>I have been programming in Swift for over 2 years and I've very
+                    comfortable with the syntax of the language and the "Swifty" way of doing things.
+                </p>
+            </li>
+            <li>
+                Comfortable Programming in Xcode and making general purpose iOS apps.
+                <p>
+                    I've been making apps basically since I started learning Swift.
+                    I've always been a technology person and I love the iPhone and Apple products.
+                    Apple's suite of tools for building iPhone apps makes me very productive and it's very enjoyable.
+                    <br>
+                    Here's the <a target="_blank" href="https://apps.apple.com/us/developer/stacey-horowitz/id1460616158">link</a> to my App Store Page.
+                </p>
+            </li>
+        </ul>
+        <h1>Skills Currently Learning/Aquiring</h1>
+        <ul>
+            <li>
+                Know the basics of Python and can make basic scripts with it but haven't really gone any further than that.
+                Python is a great language that I'll use sometimes to write up a quick script to automate some task.
+            </li>
+            <li>
+                Started Learning Haskell at around the end of September 2021.
+                Currently a beginner in the language but am slowly progressing and understanding the functional programming paradigm.
+            </li>
+            <li>
+                Started learning the basics of C# very recently with an interest in making desktop Windows applications.
+            </li>
+        </ul>
+        <h1>Very Little Experience/Want To Learn</h1>
+        <ul>
+            <li>
+                C - Know the most basic syntax of C but have never made any real program with it.
+            </li>
+            <li>
+                Ruby - Started learning the basics of ruby recently and it seems like a
+                cool scripting language that would be worth learning.
+            </li>
+        </ul>
+        <h1>Projects Built and Skills Used</h1>
+        <ul>
+            <li>
+                <span><a target="_blank" href="https://apps.apple.com/us/app/random-things-generator/id1460779766">Random Things Generator</a>
+                     - App for generating Random Things like numbers, colors, dice, etc.</span>
+                <ul>
+                    <li>Core Data</li>
+                    <li>CloudKit</li>
+                    <li>SwiftUI</li>
+                    <li>Compositional Programming</li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <span>
+                    <a target="_blank" href="https://apps.apple.com/us/app/binary-converter-calculator/id1501111820">Binary Convert Calculator</a>
+                     - App for converting numbers and text between bases
+                </span>
+                <ul>
+                    <li>UIKit</li>
+                    <li>AutoLayout</li>
+                    <li>Code Modularity</li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <span><a target="_blank" href="https://apps.apple.com/us/app/the-flippening/id1565638848">The Flippening</a>
+                     - Shows charts of Bitcoin and Ethereum and how they interact with each other</span>
+                <ul>
+                    <li>Fetching data from an API in a safe and efficient manner</li>
+                    <li>Using SwiftUI paths to make line chart that can be scrolled on to show changing prices</li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <span>
+                    <a target="_blank" href="https://apps.apple.com/us/app/debt-in-us/id1489902593">Debt in US</a>
+                     - Shows the current outstanding US debt
+                </span>
+                <ul>
+                    <li>Fetching data from US treasury to show current US debt level</li>
+                    <li>Saving API data in the form of JSON to local disk to prevent
+                        unnecessary network calls and to improve speed of app</li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <a target="_blank" href="https://apps.apple.com/us/app/the-ultimate-periodic-table/id1493321444">The Ultimate Periodic Table</a>,
+                <a target="_blank" href="https://apps.apple.com/us/app/presidents-of-united-states/id1589177122">Presidents of United States</a>
+                <ul>
+                    <li>Parsing JSON info efficiently and displaying to the user</li>
+                    <li>Using UserDefaults to persist some data</li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <span>
+                    <a target="_blank" href="https://github.com/MichaelHorowitzDev/SwiftChess">SwiftChess</a>
+                     - Chess Library written in Swift
+                </span>
+                <ul>
+                    <li>Usage of Protocols to define functionality</li>
+                    <li>Usage of Structs and Composition over Classes and inheritance</li>
+                    <li>First time creating a Swift library and writing basic documentation for it</li>
+                </ul>
+            </li>
+        </ul>
+        <h1>Other General Interests</h1>
+        <ul>
+            <li>General interest in computers and technology</li>
+            <li>Running and working out</li>
+            <li>Interest in language learning (current learning Japanese)</li>
+            <li>Interest in Economics and Finance</li>
+        </ul>
+    </div>
 </body>
 </html>
